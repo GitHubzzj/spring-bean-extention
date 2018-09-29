@@ -24,7 +24,7 @@
 
 Spring 提供了 Lifecycle 接口,其中包含了 start/stop 方法,实现此接口Spring会保证在启动的时候
 调用其 start 方法开始生命周期, 并在 Spring 关闭的时候调用 stop 方法来结束生命周期,通常用来配置
-后台程序.
+后台程序,后台程序一直执行.
 
 ```
 public static final String LIFECYCLE_PROCESSOR_BEAN_NAME = "lifecycleProcessor"
