@@ -182,7 +182,9 @@
 ```
 
 - 扫描文件,先得到路径URL,用 ClassLoader.getResources,path = com/byedbl/
+
 //url = 完整路径 如: file:/D:/IdeaProject/spring-bean-extention/target/classes/com/byedbl/
+
 // rootDir = Resource.getFile().getAbsoluteFile() 得到file
 ```
 		Set<Resource> result = new LinkedHashSet<>(16);
